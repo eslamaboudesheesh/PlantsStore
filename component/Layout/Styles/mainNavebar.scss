@@ -16,3 +16,9 @@
     display: none;
 }
     }
+
+    @media (max-width:992px){
+        .inBigScreenOnly{
+            display: none;
+        }
+    }

@@ -24,7 +24,7 @@ export default function MainNavbar() {
         <Navbar.Brand href="#home">
           <img src="/logo.svg" alt="Plants Logo" />
         </Navbar.Brand>
-        <Navbar className="row showInMobileOnly">
+        {/* <Navbar className="row showInMobileOnly">
           <Col>
             <Form.Control type="text" placeholder="Normal text" />
           </Col>
@@ -35,25 +35,25 @@ export default function MainNavbar() {
           <Nav.Link eventKey={2} href="#memes">
             <img src="/heartIcon.svg" alt="heart Icon" />
           </Nav.Link>
-        </Navbar>
+        </Navbar> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
-
-          <div className="inBigScreenOnly col-md-4">
        
-            <Form.Control type="text" placeholder="Search about Plants " />
-          </div>
-          <Nav className="inBigScreenOnly">
+       
+          <Nav >
+          <Form.Control type="text" placeholder="Search about Plants "  />
+          
             <Nav.Link href="#deets">
               <img src="/store.svg" alt="store Icon" />
             </Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               <img src="/heartIcon.svg" alt="heart Icon" />
             </Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Navbar>
