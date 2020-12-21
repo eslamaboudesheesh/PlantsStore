@@ -1,0 +1,76 @@
+.Header__cover {
+    position: relative;
+//   background: url(../../../public/images/header.jpg) no-repeat center / cover;
+ img { 
+    position: relative;
+    object-fit: contain;
+    width: 100%;} 
+  .Header__Content__wrapper {
+    padding: 5rem;
+    position: absolute;
+    top: 10%;
+    z-index: 999;
+    .Header__Content {
+      background-color: white;
+      padding: 2rem;
+      h3 {
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        font-size: 1.15rem !important;
+        color: #333333;
+        font-family: 'proxima-nova', sans-serif;
+        font-weight: 400;
+      }
+      h2 {
+        color: inherit !important;
+        font-family: playfair display, serif;
+        font-size: 3.25vw;
+        font-weight: 100;
+        line-height: 1;
+        letter-spacing: 0.15em;
+        text-transform: none;
+      }
+      p {
+        margin: 16px 0 0;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    letter-spacing: .05em;
+      }
+      .Header__btn {
+        font-size: 1.14rem;
+        color: #fff;
+        background: #0a7256;
+        border-color: transparent;
+        letter-spacing: .1em;
+        border: 1px solid transparent;
+        margin-top: 1.8rem;
+        min-width: 16.4rem;
+        &:hover, &:focus , &:active{
+           
+                background: #0c8968;
+                color: #fff;
+            
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .Header__Content__wrapper {
+    padding: 1rem !important;
+    .Header__Content {
+      padding: 1rem !important;
+    }
+  }
+  .Header__Content__wrapper{
+      position: relative !important;
+      .Header__Content{
+          width: 100%;
+          text-align: center;
+          h2{
+              font-size: 2.3rem !important;
+          }
+      } 
+  }
+}

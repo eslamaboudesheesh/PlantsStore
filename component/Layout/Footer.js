@@ -3,13 +3,13 @@ import React from 'react'
 export default function Footer() {
   return (
     <>
-      <footer className="container-fluid py-2">
-        <section className="row ">
-          <div className="col-md-2">
+      <footer className="container-fluid py-2 footer__wrapper">
+        <section className="row footer__SectionOne ">
+          <div className="col-md-3 footer__logo">
             <img src="/logo.svg" alt="Plants Logo" className="px-2" />
             <span>Plants Store</span>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-3">
             <ul>
               <li className="applelink">
                 <a
@@ -45,7 +45,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-3">
             <ul>
               <li className="applelink">
                 <a
@@ -73,7 +73,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-3">
             <ul>
               <li className="applelink">
                 <a
@@ -88,13 +88,9 @@ export default function Footer() {
         </section>
 
         <hr />
-        <section className="row">
-          <div className="col-md-6">
+        <section className="row footer__SectionTwo">
             <p>@ 2020 PlantStore , All Rights Reseved </p>
-          </div>
-          <div className="col-md-6">
-            <p>created by eslam</p>
-          </div>
+          
         </section>
       </footer>
     </>
