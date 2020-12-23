@@ -43,7 +43,10 @@ export default function CardSlider() {
     };
     return (
         <> 
-        <h2>New Arrivals</h2>
+        <div className=" py-2 my-2 px-2 mx-2 Sub-title">
+         <h2 >New Arrivals</h2>
+        </div>
+        
             <Slider {...settings}>
             <div className=" col-sm-4 col-md-12 my-2">
                   <CardsItem/>

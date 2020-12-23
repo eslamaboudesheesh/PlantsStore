@@ -6,6 +6,7 @@
 @import '../component/Layout/Styles/mainNavebar.scss';
 
 @import '../component/Home-Component/styles/HeaderCover.scss';
+
 @import '../component/Home-Component/styles/slider.scss';
 @import '../component/Home-Component/styles/cardsListItem.scss';
 @import "../node_modules/slick-carousel/slick/slick.css";
@@ -39,3 +40,40 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.Sub-title {
+    color: inherit;
+    font-family: playfair display, serif;
+    font-size: 0.7rem;
+    /* font-weight: 100; */
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-transform: none;
+  &::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid #0a7256;
+    width: 9%;
+    position: relative;
+    bottom: -6px;
+  }
+  }
+  @media (max-width: 992px) {
+    .Sub-title {
+      color: inherit;
+      font-family: playfair display, serif;
+      font-size: 0.7rem;
+      /* font-weight: 100; */
+      line-height: 1;
+      letter-spacing: 0.08em;
+      text-transform: none;
+    &::after{
+      content: "";
+      display: block;
+      border-bottom: 2px solid #0a7256;
+      width: 25%;
+      position: relative;
+      bottom: -6px;
+    }
+    }
+  }
