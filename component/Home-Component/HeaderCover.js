@@ -1,5 +1,4 @@
 import React from "react";
-import CardsHeader from "./CardsHeader";
 
 export default function HeaderCover() {
   return (

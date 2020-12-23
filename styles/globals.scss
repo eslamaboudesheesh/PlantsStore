@@ -6,7 +6,10 @@
 @import '../component/Layout/Styles/mainNavebar.scss';
 
 @import '../component/Home-Component/styles/HeaderCover.scss';
-
+@import '../component/Home-Component/styles/slider.scss';
+@import '../component/Home-Component/styles/cardsListItem.scss';
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
 html,
 body {
   padding: 0;

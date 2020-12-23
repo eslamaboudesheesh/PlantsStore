@@ -1,9 +1,7 @@
 import Head from "next/head";
-import HeaderCover from "../component/Home-Component/HeaderCover";
+import LandingPage from "../component/Home-Component/LandingPage";
 import Layout from "../component/Layout/Layout";
-import Navcomponent from "../component/nav-component/navcomponent";
-import PlantsList from "../component/plantsList/PlantsList";
-import styles from "../styles/Home.module.css";
+
 
 const Index = () => {
   
@@ -15,8 +13,8 @@ const Index = () => {
   </Head>
 
     <Layout>
-      <HeaderCover/>
-      <PlantsList/>
+      <LandingPage/>
+      {/* <PlantsList/> */}
       </Layout>
       </>
   )
