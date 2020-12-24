@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardDeck ,Col } from "react-bootstrap";
-import CategoryItem from './categoryItem';
+import CategoryItem from './CategoryItem';
 
 export default function CategoryItemList() {
   return (
