@@ -10,7 +10,7 @@ export default function HeaderCover() {
             <h3>SELLING FAST</h3>
             <h2>Spread Holiday Cheer</h2>
             <p>Act now: Schedule farm-fresh Bouqs, plants & gifts for everyone on your list!</p>
-             <button className="Header__btn btn ">Shop Now </button>
+             <button className="Main__btn btn ">Shop Now </button>
             </div>
         </div>
       </section>

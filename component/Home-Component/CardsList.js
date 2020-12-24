@@ -5,7 +5,7 @@ import CardsItem from './CardsItem';
 export default function CardsList() {
     return (
         <>
-        <CardGroup>
+        <CardGroup className="CardGroupItem">
             <CardsItem/>
             <CardsItem/>
             <CardsItem/>

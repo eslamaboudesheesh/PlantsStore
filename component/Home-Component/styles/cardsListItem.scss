@@ -1,4 +1,4 @@
-.card-group {
+.CardGroupItem {
     .card {
       
         border-radius: 0 ;
@@ -50,8 +50,10 @@
             left: 60%;
             transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
-            &:hover {
+            &:hover ,&:focus {
                 color: rgba(157, 9, 9, 0.816);
+                outline: none;
+                box-shadow: none;
             }
         } 
         &:last-child {
@@ -60,8 +62,10 @@
         left: 40%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        &:hover {
+        &:hover , &:focus {
             color: #0a7256ec;
+            outline: none;
+            box-shadow: none;
         }
         }
     }

@@ -36,22 +36,7 @@
         line-height: 1.5;
     letter-spacing: .05em;
       }
-      .Header__btn {
-        font-size: 1.14rem;
-        color: #fff;
-        background: #0a7256;
-        border-color: transparent;
-        letter-spacing: .1em;
-        border: 1px solid transparent;
-        margin-top: 1.8rem;
-        min-width: 16.4rem;
-        &:hover, &:focus , &:active{
-           
-                background: #0c8968;
-                color: #fff;
-            
-        }
-      }
+  
     }
   }
 }
