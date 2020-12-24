@@ -27,29 +27,30 @@
 }
 
 
-
-.card {
+.ProductList__card {
+    .card {
       
-    border-radius: 0 ;
-    border: none;
-    transition: all 0.1s ease-in-out;
-    &:hover{
-        cursor: pointer;
-
-        .card-overlay {
-            display: block;
+        border-radius: 0 ;
+        border: none;
+        transition: all 0.1s ease-in-out;
+        &:hover{
+            cursor: pointer;
+    
+            .card-overlay {
+                display: block;
+            }
         }
     }
-}
-.card-footer{
-    box-shadow: 1px 3px 6px 2px #e8e8e8;
-    background-color: #0a7256bf;
-    position: absolute;
-    bottom:  0;
-    width: 100%;
-    color: white;
-    font-size: 1rem;
-    z-index: 9;
-    text-transform: capitalize;
-    
+    .card-footer{
+        box-shadow: 1px 3px 6px 2px #e8e8e8;
+        background-color: #0a7256bf;
+        position: absolute;
+        bottom:  0;
+        width: 100%;
+        color: white;
+        font-size: 1rem;
+        z-index: 9;
+        text-transform: capitalize;
+        
+    }
 }

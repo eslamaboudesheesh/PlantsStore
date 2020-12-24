@@ -5,7 +5,7 @@ import CardsItem from './CardsItem'
 export default function AllProductList() {
     return (
         <>
-        <div className="px-2">
+        <div className="px-2 ProductList__card">
 
         <div className=" py-2 my-2 px-2 mx-2 Sub-title">
          <h2 >All Products</h2>
