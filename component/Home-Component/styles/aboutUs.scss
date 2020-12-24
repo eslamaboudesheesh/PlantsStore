@@ -1,0 +1,115 @@
+.AboutUs__section{
+    position: relative;
+ background: url(../../../public/images/header.jpg) no-repeat center fixed;     
+ background-size: cover;
+    .color-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0a7256de;
+     
+    }
+    .AboutUs__wrapper {
+        position: relative;
+        top: 5%;
+        z-index: 999;
+        .Aboutus__title {
+            color: white;
+            font-family: playfair display, serif;
+            font-size: 0.7rem;
+            /* font-weight: 100; */
+            line-height: 1;
+            letter-spacing: 0.08em;
+            text-transform: none;
+          &::after{
+            content: "";
+            display: block;
+            border-bottom: 2px solid white;
+            width: 7%;
+            position: relative;
+            bottom: -6px;
+          }
+          }
+          @media (max-width: 992px) {
+            .Aboutus__title {
+              color: white;
+              font-family: playfair display, serif;
+              font-size: 0.7rem;
+              /* font-weight: 100; */
+              line-height: 1;
+              letter-spacing: 0.08em;
+              text-transform: none;
+            &::after{
+              content: "";
+              display: block;
+              border-bottom: 2px solid white;
+              width: 25%;
+              position: relative;
+              bottom: -6px;
+            }
+            }
+          }
+    }
+
+.AboutUs__Content {
+    .AboutUs--Content_title {
+         h2 {
+            color: white;
+            font-size: 4vw;
+            line-height: 1.4;
+            text-transform: capitalize;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            width: 86%;
+            font-family: playfair display, serif;
+            font-weight: 600;
+            padding-top: 3.5vw;
+         }
+    }
+    .AboutUs--Content_storty {
+        box-shadow: -17px 20px 0px 2px #f8f9faa3;
+        background-color: white;
+        h3{
+            text-transform: capitalize;
+            font-family: playfair display, serif;
+            color: #333333;
+            line-height: 1.3;
+            font-size: 1.8rem ;
+            font-weight: 600;
+        }
+        p{
+            text-transform: capitalize;
+            color: #888888;          
+           font-family: proxima-nova, sans-serif;
+            font-size: 1rem;
+            line-height: 1.8;
+            font-weight: 600;
+
+        }
+    }
+
+    @media (max-width: 992px) {
+        .AboutUs--Content_title {
+            text-align: center;
+            h2 {
+               color: white;
+               font-family: inherit;
+               font-size: 12vw;
+               font-weight: 100;
+               line-height: 1.4;
+               text-transform: none;
+               overflow-wrap: break-word;
+               word-wrap: break-word;
+               width:auto;
+               font-family: playfair display, serif;
+               padding-top: 1.5vw;
+            }
+       }
+       .AboutUs--Content_storty {
+           margin-top: 10px;
+       }
+    }
+}  
+}
