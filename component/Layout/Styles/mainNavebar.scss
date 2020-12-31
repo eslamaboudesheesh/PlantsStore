@@ -1,11 +1,9 @@
 .Header__navbar {
-  position: sticky;
   background-color: white;
 }
 
 .Header__magical {
-  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.02), 0 0 8px rgba(0, 0, 0, 0.03),
-    0 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow:-19px 7px 30px rgb(0 0 0 / 47%), -7px 3px 8px rgb(0 0 0 / 0%), -16px 8px 0 rgb(0 0 0 / 0%);
   transition-property: all;
   transition-duration: 0.15s;
 }

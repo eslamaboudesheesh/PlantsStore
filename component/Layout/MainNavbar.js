@@ -7,19 +7,18 @@ export default function MainNavbar() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 100);
+      setScroll(window.scrollY > 500);
     });
-  }, []);
+  }, [scroll]);
   return (
     <>
       <Navbar
         collapseOnSelect
         expand="lg"
         variant="light"
-        sticky="top"
         fixed="top"
         className={
-          scroll ? "Header__navbar Header__magical " : "Header__navbar"
+          scroll ? "Header__navbar Header__magical " : "Header__navbar "
         }
       >
         <Navbar.Brand href="#home">
